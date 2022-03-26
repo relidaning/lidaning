@@ -1,6 +1,6 @@
 {
   "name": "lidaning",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a common js api",
   "main": "index.js",
   "scripts": {
