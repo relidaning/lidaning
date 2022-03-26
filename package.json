@@ -1,0 +1,22 @@
+{
+  "name": "lidaning",
+  "version": "1.0.2",
+  "description": "a common js api",
+  "main": "index.js",
+  "scripts": {
+    "test": "lidaning -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relidaning/lidaning.js.git"
+  },
+  "keywords": [
+    "lidaning"
+  ],
+  "author": "relidaning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relidaning/lidaning.js/issues"
+  },
+  "homepage": "https://github.com/relidaning/lidaning.js#readme"
+}
