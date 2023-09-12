@@ -1,5 +1,5 @@
-# lidaning.js
-a common js api
+# lidaning
+a common frontend api project
 
 ## greeting
 a demo function
