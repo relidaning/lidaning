@@ -1,14 +1,14 @@
 {
   "name": "lidaning",
-  "version": "1.1.0",
-  "description": "a common js api",
-  "main": "index.js",
+  "version": "1.2.0",
+  "description": "a common frontend project",
+  "main": "index",
   "scripts": {
     "test": "lidaning -v"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/relidaning/lidaning.js.git"
+    "url": "git+https://github.com/relidaning/lidaning.git"
   },
   "keywords": [
     "lidaning"
@@ -16,7 +16,10 @@
   "author": "relidaning",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/relidaning/lidaning.js/issues"
+    "url": "https://github.com/relidaning/lidaning/issues"
   },
-  "homepage": "https://github.com/relidaning/lidaning.js#readme"
+  "homepage": "https://github.com/relidaning/lidaning#readme",
+  "directories": {
+    "lib": "lib"
+  }
 }
