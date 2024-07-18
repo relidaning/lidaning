@@ -14,9 +14,24 @@ body {
   color: #ffffff;
 }
 
+a {
+  color: #fff;
+}
+
+a:hover {
+ color: #fff;
+}
+
 button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   background-color: #1abc9c !important;
   font-size: 80%;
+}
+
+.nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #2c3e50;
+  font-weight: 700!important;
 }
 
 .rounded {
@@ -24,10 +39,9 @@ button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   border: 1px solid transparent;
 }
 
-.task-card{
+.card_panel{
   margin: 1rem;
   padding: 2rem;
-  display: block;
   border: 1px solid #fff;
   border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -60,26 +74,63 @@ button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   width: 100%;
   display: block;
   text-align: center;
-  padding: 3%;
   background-color: #2c3e50;
   font-size: 0.5rem;
   color: #808080;
-  height: 50px;
-}
-
-.nav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #2c3e50;
-  font-weight: 700!important;
-}
-
-button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
-  background-color: #1abc9c !important;
-  font-size: 80%;
+  height: 6em;
+  line-height: 6em;
 }
 
 .text-uppercase {
   text-transform: uppercase !important;
   font-weight: 700!important;
+}
+
+.title{
+    text-align: center;
+}
+
+.score {
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.score_score {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+.content{
+    color: #6c757d;
+    font-size: medium;
+    word-wrap:break-word;
+}
+
+.date_mark{
+  font-size: small;
+  color: #6c757d;
+}
+
+.summary_div{
+  text-align: center;
+  padding: 1em;
+}
+
+.button-del {
+  width: 100%;
+  margin: 1% 10%;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  color: #dc3545;
+  background-color: #1abc9c;
+  border-color: #fff;
+}
+
+.right_span{
+  float: right;
+  color: #dc3545;
 }
