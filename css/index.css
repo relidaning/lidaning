@@ -54,12 +54,22 @@ button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   z-index: 1030;
 }
 
-.button-large {
+button.btn-large {
   width: 100%;
   margin: 10%;
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
   color: #fff;
+  background-color: #1abc9c;
+  border-color: #fff;
+}
+
+button.btn-del {
+  width: 100%;
+  margin: 1% 10%;
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  color: #dc3545;
   background-color: #1abc9c;
   border-color: #fff;
 }
@@ -120,15 +130,7 @@ button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   padding: 1em;
 }
 
-.button-del {
-  width: 100%;
-  margin: 1% 10%;
-  padding: 1rem 1.75rem;
-  font-size: 1.25rem;
-  color: #dc3545;
-  background-color: #1abc9c;
-  border-color: #fff;
-}
+
 
 .right_span{
   float: right;
