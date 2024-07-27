@@ -54,7 +54,7 @@ button.bg-primary, button.bg-primary:focus, button.bg-primary:hover {
   z-index: 1030;
 }
 
-.button-goodlooking {
+.button-large {
   width: 100%;
   margin: 10%;
   padding: 1rem 1.75rem;
