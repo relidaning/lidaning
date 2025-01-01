@@ -137,3 +137,9 @@ button.btn-del {
   float: right;
   color: #dc3545;
 }
+
+.bottom_span {
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.8rem;
+}
